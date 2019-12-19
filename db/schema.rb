@@ -17,8 +17,8 @@ ActiveRecord::Schema.define(version: 20191209033623) do
 
   create_table "scooters", force: :cascade do |t|
     t.integer "scooterId"
-    t.string "lat"
-    t.string "lon"
+    t.float "lat"
+    t.float "lon"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

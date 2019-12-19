@@ -13,5 +13,9 @@
     "postinstall": "npm run build && npm run deploy && echo 'Client built'"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.6.0",
+    "react-leaflet": "^2.6.0"
+  }
 }
