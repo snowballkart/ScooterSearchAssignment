@@ -144,7 +144,8 @@ export class App extends Component {
           <Map 
                style={{ height: "580px", width: "100%" }}
                center={currentLocation}
-               zoom={18} 
+               zoom={18}
+               maxZoom={22} 
                >
             <TileLayer 
               url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
